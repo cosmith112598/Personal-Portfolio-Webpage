@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio Webpage</title>
+        <link href="style-portfolio.css" rel= "stylesheet">
+    </head>
+    <body>
+        <nav id="navbar">
+            <ul id="navlist">
+                <li><a href= "#welcome-section">About</a></li>
+                <li><a href= "#projects">Work</a></li>
+                <li><a href= "#contact"> Contact</a></li>
+            </ul>
+        </nav>
+        <div id="welcome-section">
+            <section id= "welcome-section">
+                <h1>Welcome! This is my welcome section!</h1>
+            </section>
+        </div>
+        <section id= "profile">
+            <a id="profile-link" href= "https://github.com/cosmith112598" target="_blank"> profile-link </a>
+        </section>
+        
+        <section id= "projects">
+            <div class="project-tile">
+                <a href= "https://www.freecodecamp.org/courtnee_10819551"> Projects Profile</a>
+            </div>
+        </section>
+
+       <script src= "https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> 
+    </body>
+</html>
